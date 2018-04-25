@@ -1,5 +1,5 @@
 {
-  "name": "react-day-picker",
+  "name": "@peerspace/react-day-picker",
   "version": "7.1.6",
   "description": "Flexible date picker component for React",
   "main": "DayPicker.js",
@@ -14,7 +14,9 @@
     "types"
   ],
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "clean": "rimraf coverage lib",
@@ -31,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gpbl/react-day-picker.git"
+    "url": "git+https://github.com/gpbl/react-day-picker.git"
   },
   "keywords": [
     "react",
